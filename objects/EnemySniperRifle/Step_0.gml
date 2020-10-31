@@ -5,9 +5,6 @@ sniperDelay = sniperDelay-1;
 if(distance_to_object(Player) < 400 ){
 	show_debug_message("Distance less than 200");
  image_angle = point_direction(x,y,Player.x, Player.y);
-//EnemySniper.image_xscale = -1;
-
-	//recoil = 4;
 	
 	if(sniperDelay<0){
 	sniperDelay = 60;
@@ -16,11 +13,8 @@ if(distance_to_object(Player) < 400 ){
 		direction = other.image_angle + random_range(-1,1);
 		image_angle = direction;
 }
-
 	}
-
 }
-
 
 if (image_angle >= 90 && image_angle <= 270) {
 	image_yscale = -1;	

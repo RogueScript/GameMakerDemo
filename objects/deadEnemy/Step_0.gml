@@ -1,12 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (done == 0) {
-	
+if (done == 0) {	
 	verticalSpeed = verticalSpeed  + gravitation;
-
-
-
 	// function determines the distance/collision between objects at a position
 	if (place_meeting(x+horizontalSpeed, y, Block))
 	{ 

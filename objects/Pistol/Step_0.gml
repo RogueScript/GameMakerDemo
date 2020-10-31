@@ -25,15 +25,13 @@ if (mouse_check_button(mb_left)) && (delay<0){
 if (image_angle >= 90 && image_angle <= 270) {
 	image_yscale = -1;	
 	x = Player.x-2;
-y = Player.y-1;
+    y = Player.y-1;
 
 
 } else {
  image_yscale = 1;	
  x = Player.x+4;
-y = Player.y+2;
-
-
+ y = Player.y+2;
 }
 
 x = x - lengthdir_x(recoil,image_angle);

@@ -10,6 +10,5 @@ if (enemyHP <= 0){
 		if (sign(horizontalSpeed != 0)) image_xscale = sign(horizontalSpeed) * other.size;
 		image_yscale = other.size;
 	}
-	instance_destroy(self);
-	
+	instance_destroy(self);	
 }

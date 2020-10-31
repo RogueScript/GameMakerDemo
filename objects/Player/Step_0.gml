@@ -37,8 +37,8 @@ if (place_meeting(x, y+verticalSpeed, Block))
 }
 
 y += verticalSpeed;
-
-if (place_meeting(x,y+1,Block)) && (key_jump) { // + means down in GameMaker since y axis is inverted.
+// + means down in GameMaker since y axis is inverted.
+if (place_meeting(x,y+1,Block)) && (key_jump) { 
 	verticalSpeed = -9.1;
 }
 

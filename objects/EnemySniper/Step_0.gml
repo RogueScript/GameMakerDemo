@@ -20,7 +20,7 @@ if(rifle.image_yscale == 1){
 
 if (place_meeting(x, y+verticalSpeed, Block))
 { 
-	//show_debug_message("inside of if statement");
+
 		while(!place_meeting(x,y +sign(verticalSpeed),Block)) {
 			//show_debug_message("inside of while loop");
 			y = y+sign(verticalSpeed);		
